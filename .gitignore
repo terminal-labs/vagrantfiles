@@ -1,14 +1,30 @@
-# use glob syntax.
 syntax: glob
 
-*~
-*.pyc
-*\#
-*\.\#*
+## patterns
 *.orig
-.DS_Store
-venv
-*.box
-build
-.vagrant
-Vagrantfile.old
+*.tgz
+*.swp
+*.swo
+*~
+*.DS_Store*
+*.vagrant*
+*.pem
+*.pub
+*.log
+*.pyc
+*.#*
+*#
+*.egg-info
+*flymd*
+
+## paths
+dist
+env.sh
+digitalocean.env.sh
+aws.env.sh
+docs/_build
+srv/salt/ssh_keys
+rambo/saltstack
+.tmp
+**/auth/keys
+**/licenses
